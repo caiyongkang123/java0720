@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 public class TMember implements Serializable {
     private Integer id;
-    //这是一个用户的登录名
+    //线上修改，这是一个用户的登录名
     private String loginacct;
-
+    //线下修改，这是一个用户的密码
     private String userpswd;
 
     private String username;
