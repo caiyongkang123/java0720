@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class TMember implements Serializable {
     private Integer id;
-
+    //这是一个用户的登录名
     private String loginacct;
 
     private String userpswd;
